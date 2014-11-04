@@ -1,0 +1,31 @@
+body 	{
+	font-family: Arial, Verdana, sans-serif;
+	background-color:#27586B;	
+    border-width:10px;
+    border-style:solid;
+    border-color:#022735;
+    padding: 0px;
+    margin: 0px;
+	text-align:center;
+		}
+		
+h1, h2, h3, h4	{
+	font-family: Arial, Helvetica, Georgia;
+	font-size: 32px;
+	font-style: italic;
+	color: #022735;
+	}
+	
+p	{
+	color: #6D92A0
+	}
+
+/* Navigation	
+ul	{
+	color: #457485
+	}
+	
+li	{
+	display: inline;
+	margin-right: 20px;
+	}
