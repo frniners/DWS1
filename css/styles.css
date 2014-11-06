@@ -1,73 +1,118 @@
-div {
-    width: auto;
-    border: 3.5px solid;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px #113F51;
+		/* navigation */
+#menu li {
+		display: inline;
+		text-align: center;
 }
 
-body 	{
-	font-family: Arial, Verdana, sans-serif;
-	background-color:#27586B;	
-    border-width:10px;
-    border-style:solid;
-    border-color:#022735;
-    padding: 0px;
-    margin: 0px;
+#menu a:link {
+		color: yellow;
+		padding: 8px 8px 8px 8px;
 }
-		
-h1, h2, h3, h4	{
-	font-family: Arial, Helvetica, Georgia;
-	font-size: 32px;
-	font-style: italic;
-	color: #022735;
-	text-align:center;
+
+#menu a:hover {
+		color: blue;
+		background-color: #FFF;
+		border-radius: 25px;
+		text-decoration: underline;
+}
+
+#menu a:visited {
+		color: red;
+		text-decoration: underline;
+}
+
+#menu a:active {
+		color: green;
+		text-decoration: underline;
+}
+
+		/* borders*/
+div {
+		width: auto;
+		height: auto;
+		padding: 5px;
+		margin: 2px 2px 2px;
+		border: 3.5px solid;
+		border-radius: 25px;
+		box-shadow: 5px 5px 5px #113F51;
+}
+		/* Layout */
+	body 	{
+		font-family: Arial, Verdana, sans-serif;
+		background-color:rgba(39, 89, 109, 0.83);	
+		padding: 0px;
+		margin: 0px;
+}
+
+		/* paragraphs */
+p	{
+		color: #6D92A0;	
+		text-align: center;
+}
+
+p.big	{
+		line-height: 30px;
+}
+
+p.small {
+		line-height: 20px;
+}
+
+		/* Headers */
+h1, h2, h3	{
+		font-family: Arial, Helvetica, Georgia;
+		font-size: 32px;
+		font-style: italic;
+		color: #022735;
+		text-align:center;
+		text-shadow: 2.5px 2.5px 2.5px #113f51;
+}
+
+h4	{
+		text-align: center;
+		font-family: Arial, Helvetica, Georgia;
+		font-size: 12px;
 }
 	
-p	{
-	color: #6D92A0;	
-	text-align: center;
-}
+		/* Footer */
 
 #menu {
-    width: auto;
-    height: auto;
-    font-size: 24px;
-    font-family: Arial, Helvetica, Georgia;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 3px 2px 3px #333333;        
+		width: auto;
+		height: auto;
+		font-size: 24px;
+		font-family: Arial, Helvetica, Georgia;
+		font-weight: bold;
+		text-align: center;
+		text-shadow: 3px 2px 3px #333333;        
 }
 
-#menu li {
-display: inline;
-text-align: center;
+#menu2 {
+		font-size: 12px;
+		font-family: Arial, Helvetica, Georgia;
+		text-align: center;
 }
 
-/* active link*/
-#menu a:link {
-    color: yellow;
-    padding: 8px 8px 8px 8px;
+#menu2 li {
+		display: inline;
+		text-align: center;
 }
 
-/* hover link*/
-#menu a:hover {
-    color: blue;
-    background-color: #FFF;
-    border-radius: 25px;
-    text-decoration: underline;
+#menu2 a:link {
+		color: yellow;
+		padding: 8px 8px 8px 8px;
 }
 
-/* visited link*/
-#menu a:visited {
-	color: red;
-    text-decoration: underline;
+#menu2 a:hover {
+		color: blue;
+		background-color: #FFF;
+		text-decoration: underline;
+		border-radius: 25px;  
 }
 
-/* visited link*/
-#menu a:active {
-	color: green;
-    text-decoration: underline;
+#menu2 a:visited {
+		color: red;
+}
 
-
-/* examples */
-
+#menu2 a:active {
+		color: green;
+}
