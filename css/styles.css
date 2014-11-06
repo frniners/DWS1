@@ -1,3 +1,10 @@
+div {
+    width: auto;
+    border: 3.5px solid;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #113F51;
+}
+
 body 	{
 	font-family: Arial, Verdana, sans-serif;
 	background-color:#27586B;	
@@ -6,26 +13,61 @@ body 	{
     border-color:#022735;
     padding: 0px;
     margin: 0px;
-	text-align:center;
-		}
+}
 		
 h1, h2, h3, h4	{
 	font-family: Arial, Helvetica, Georgia;
 	font-size: 32px;
 	font-style: italic;
 	color: #022735;
-	}
+	text-align:center;
+}
 	
 p	{
-	color: #6D92A0
-	}
+	color: #6D92A0;	
+	text-align: center;
+}
 
-/* Navigation	
-ul	{
-	color: #457485
-	}
-	
-li	{
-	display: inline;
-	margin-right: 20px;
-	}
+#menu {
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    font-family: Arial, Helvetica, Georgia;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;        
+}
+
+#menu li {
+display: inline;
+text-align: center;
+}
+
+/* active link*/
+#menu a:link {
+    color: yellow;
+    padding: 8px 8px 8px 8px;
+}
+
+/* hover link*/
+#menu a:hover {
+    color: blue;
+    background-color: #FFF;
+    border-radius: 25px;
+    text-decoration: underline;
+}
+
+/* visited link*/
+#menu a:visited {
+	color: red;
+    text-decoration: underline;
+}
+
+/* visited link*/
+#menu a:active {
+	color: green;
+    text-decoration: underline;
+
+
+/* examples */
+
