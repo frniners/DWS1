@@ -31,8 +31,8 @@ div {
 		width: auto;
 		height: auto;
 		padding: 5px;
-		margin: 2px 2px 2px;
-		border: 3.5px solid;
+		margin: auto;
+		border: 5px dotted gray;
 		border-radius: 25px;
 		box-shadow: 5px 5px 5px #113F51;
 }
@@ -70,7 +70,7 @@ h1, h2, h3	{
 
 h4	{
 		text-align: center;
-		font-family: Arial, Helvetica, Georgia;
+		font-family: Roboto, sans-serif;
 		font-size: 12px;
 }
 	
