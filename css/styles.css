@@ -90,6 +90,8 @@ h4	{
 		font-size: 12px;
 		font-family: Arial, Helvetica, Georgia;
 		text-align: center;
+		display: inline;
+		
 }
 
 #menu2 li {
@@ -115,4 +117,45 @@ h4	{
 
 #menu2 a:active {
 		color: green;
+}
+
+
+#header
+{
+	height: auto;
+	width: 960px;
+	background-color: #666;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#nav
+{
+	width: 960px;
+	height: auto;
+	background-color: #666;
+	margin-bottom: 10px;
+}
+
+.content
+{
+	margin-bottom: 10px;
+	height: auto;
+	width: 960px;
+	background-color: #666;
+}
+
+.content2
+{
+	height: auto;
+	width: 960px;
+	background-color: #666;
+	margin-bottom: 10px;
+}
+#footer
+{
+	height: auto;
+	width: 960px;
+	background-color: #666;
+	margin-bottom: 10px;
 }
