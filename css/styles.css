@@ -143,6 +143,8 @@ h4	{
 	width: 50%;
 	background-color: #666;
 	margin-bottom: 10px;
+	float: left;
+	cldear: both;
 }
 
 .rightColumn {
@@ -150,6 +152,8 @@ h4	{
 	width: 50%;
 	background-color: #666;
 	margin-bottom: 10px;
+	float: left;
+	clear: both;
 }
 
 #footer
