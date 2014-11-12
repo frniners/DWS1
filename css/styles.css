@@ -35,6 +35,7 @@ div {
 		border: 5px dotted gray;
 		border-radius: 25px;
 		box-shadow: 5px 5px 5px #113F51;
+		background-color: #777;
 }
 		/* Layout */
 	body 	{
@@ -137,21 +138,20 @@ h4	{
 	margin-bottom: 10px;
 }
 
-.content
-{
-	margin-bottom: 10px;
-	height: auto;
-	width: 960px;
+.leftColumn {
+	float: left;
+	width: 50%;
 	background-color: #666;
+	margin-bottom: 10px;
 }
 
-.content2
-{
-	height: auto;
-	width: 960px;
+.rightColumn {
+	float: left;
+	width: 50%;
 	background-color: #666;
 	margin-bottom: 10px;
 }
+
 #footer
 {
 	height: auto;
