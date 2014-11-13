@@ -1,12 +1,23 @@
-			/*new css coding */
+	/* Body Styles */
 body { 
 	font-family: Arial, Verdana, sans-serif;
-	background-image: url(..images/background.gif); 
-    background-repeat: repeat-x;
+	background-image: url(../images/background.gif); 
 	background-color:rgba(39, 89, 109, 0.83);	
 	padding: 0px;
 	margin: 0px;
 }
+
+div	{
+	background-image: url(../images/background2.gif); 
+}
+
+p	{
+	background: linear-gradient(green, white);
+	color: #000;	
+	text-align: left;
+}
+
+	/* Header Styles */
 
 #header
 {
@@ -16,12 +27,29 @@ body {
 	text-align: center;	
 }
 
+.column1of2, .column2of2 {
+	width: 47%; float: left; margin: 1%; border: 1px solid #665544;
+
+}
+
+p.small {
+		line-height: 20px;
+}
+
+#image2 {
+	float: left; border: 1px solid #665544;
+}
+	
+	/* Navigation/Header Styles */
+
 #nav, #footer {
 	width: 100%;
 	margin: .5% .5% .5% .5%;
 	clear: both;
 	text-align: center;
 } 
+
+	/* Menu Styles */
 
 #menu li {
 	display: inline;
@@ -50,23 +78,7 @@ body {
 	text-decoration: underline;
 }
 	
-.column1of2, .column2of2 {
-	width: 47%; float: left; margin: 1%; border: 1px solid #665544;
-
-}
-
-p	{
-	color: #000;	
-	text-align: left;
-}
-
-p.small {
-		line-height: 20px;
-}
-
-#image2 {
-	float: left; border: 1px solid #665544;
-}
+	/* Headers Styles */
 
 h1	{
 	font-family: Arial, Helvetica, Georgia;
