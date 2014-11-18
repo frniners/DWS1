@@ -1,10 +1,10 @@
 	/* Body Styles */
 body { 
-	font-family: Arial, Verdana, sans-serif;
+	font-family: Roboto, Verdana, sans-serif;
 	background-image: url(../images/background.gif); 
 	background-color:rgba(39, 89, 109, 0.83);	
 	padding: 0px;
-	margin: 0px;
+	margin: 0px auto;
 }
 
 div	{
@@ -24,7 +24,9 @@ p	{
 	height: auto;
 	width: 100%;
 	margin: .5% .5% .5% .5%;
-	text-align: center;	
+	text-align: center;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;	
 }
 
 .column1of2, .column2of2 {
@@ -48,7 +50,7 @@ p.small {
 
 #nav, #footer {
 	width: 100%;
-	margin: .5% .5% .5% .5%;
+	margin: 0px auto;
 	clear: both;
 	text-align: center;
 } 
