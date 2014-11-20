@@ -48,22 +48,29 @@
 <b>There are 17 laws in the official Laws of the Game, each containing a collection of stipulation and guidelines. The same laws are designed to apply to all levels of football, although certain modifications for groups such as juniors, seniors, women and people with physical disabilities are permitted. The laws are often framed in broad terms, which allow flexibility in their application depending on the nature of the game. The Laws of the Game are published by FIFA, but are maintained by the International Football Association Board (IFAB).[52] In addition to the seventeen laws, numerous IFAB decisions and other directives contribute to the regulation of football.</b>
 			</blockquote>		
 
-<!--These are the two images-->			
-		 	<figure>
-  				<a href="images/ballnose_large.jpg" target="_blank"> <img class="thumbnail" src="images/ballnose_small.jpg" width="107" height="90"> <alt="Ball hitting boys nose"/>
-  				<figcaption>Boy heading the ball</figcaption>
-			</figure> 
-
-		 	<figure>
-  				<a href="images/kickball_large.jpg" target="_blank"> <img class="thumbnail" src="images/kickball_small.jpg" width="107" height="90"> <alt="Boy kicking a ball"/>
-  				<figcaption>Boy kicking a ball</figcaption>
+<!--These are the two images
+						
+			<figure>
+				<a href="images/ballnose_small.jpg" > <img
+				src="images/ballnose_large.jpg" width="107" height="107" border="1px"
+				alt="Ball hitting boys nose" /></a>
+				<figcaption>Boy heading the ball</figcaption>
 			</figure>
+
+			<figure>
+				<a href="images/kickball_small.jpg" > <img
+				src="images/kickball_large.jpg" width="107" height="107" border="1px"
+				alt="Boy kicking a ball" /></a>
+				<figcaption>Boy kicking a ball</figcaption>
+			</figure>-->
+			 	
 		</div>
 
 <!--This is the footer-->
-			<h3>Links - Photo Credits</h3> 
+			
 		<div id="footer">
-			<ul id="menu">
+			<h3>Links - Photo Credits</h3> 
+			<ul>
 				<li><a href="http://www.http://en.wikipedia.org/wiki/Association_football"> Wikipedia</a></li>
 				<li><a href="http://www.fifa.com/"> FIFA</a></li>
 				<li><a href="https://www.flickr.com/photos/58141116@N00/5921392484/">Pat McDonald</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc/2.0/">cc</a></li>
@@ -71,60 +78,43 @@
 			</ul>
 		</div>
 
-id="main_body" >
-	
-	<img id="top" src="top.png" alt="">
-	<div id="form_container">
-	
-		<h1><a>Would you like more information?</a></h1>
-		<form id="form_932358" class="appnitro"  method="post" action="">
-					<div class="form_description">
-			<h2>History of Soccer</h2>
-			<p>If you are interested in hearing more about the history of soccer feel free to submit the form below and we will be in contact within 24hrs.</p>
-		</div>						
-			<ul >
+<!--This is the table & form inside the table-->
 			
-					<li id="li_1" >
-		<label class="description" for="element_1">Name </label>
-		<span>
-			<input id="element_1_1" name= "element_1_1" class="element text" maxlength="255" size="8" value=""/>
-			<label>First</label>
-		</span>
-		<span>
-			<input id="element_1_2" name= "element_1_2" class="element text" maxlength="255" size="14" value=""/>
-			<label>Last</label>
-		</span> 
-		</li>		<li id="li_2" >
-		<label class="description" for="element_2">Text </label>
-		<div>
-			<input id="element_2" name="element_2" class="element text medium" type="text" maxlength="255" value=""/> 
-		</div> 
-		</li>		<li id="li_4" >
-		<label class="description" for="element_4">Drop Down </label>
-		<div>
-		<select class="element select medium" id="element_4" name="element_4"> 
-			<option value="" selected="selected"></option>
-<option value="1" >First option</option>
-<option value="2" >Second option</option>
-<option value="3" >Third option</option>
-
-		</select>
-		</div> 
-		</li>		<li id="li_3" >
-		<label class="description" for="element_3">Email </label>
-		<div>
-			<input id="element_3" name="element_3" class="element text medium" type="text" maxlength="255" value=""/> 
-		</div> 
-		</li>
+			<table id="table1">
+			<tr>
+				<th colspan="2">Would you like more information on the History of Soccer</th>
+			</tr>
+			<tr>
+				<td> First Name:</td><td><input type="text" name="fname" class="input" placeholder="First name" required></td>
+			</tr>
+			<tr>
+				<td> Last Name:</td><td><input type="text" name="lname" class="input" placeholder="First name" required></td>
+			</tr>
+			<tr>
+				<td>Is this your first time visiting my site?</td>
+				<td>
+					<label for="yes">Yes</label>
+					<input type="radio" name="firsttime" id="yes" value="yes">
+					<label for="no">No</label>
+					<input type="radio" name="firsttime" id="no" value="no">
+				</td>
+			</tr>
+			<tr>
+				<td>Gender:</td>
+				<td><select name="select" required>
+		  			<option value="female">Female</option>
+					<option value="male">Male</option>
+					<option value="opel">Opel</option>
+					<option value="audi">Audi</option>
+				</td>
+			</tr>
+			<tr>
+				<td>Email:</td><td><input type="email" name="email" class="input" placeholder="Email"required</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input name="submit" class="button" type="submit" id="submit" formaction="mailto:aztexfutbol@gmail.com" value="Send"></td>
+			</tr>	
+			</table>
 			
-					<li class="buttons">
-			    <input type="hidden" name="form_id" value="932358" />
-			    
-				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
-		</li>
-			</ul>
-		</form>	
-	</div> 
-
 	</body>
 </html>
